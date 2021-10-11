@@ -4,16 +4,16 @@
  The software is used only by restaurant personnel when a customer calls to request a reservation.
 > At this point, the customers will not access the system online.
 
-Endpoints /dashboard?date (shows reservations)
-/reservations (redirected to dashboard)
-GET /reservations?dates (redirected to dashboard)
-POST /reservations/new (create new reservations)
-POST /tables/new (assign table)
-POST /reservations/:reservation_id/seat (check available tables)
-PUT /tables/:table_id/seat (match reservation_id to table_id)
-PUT /reservations/:reservation_id/status (set status of table)
-/search GET /reservations?mobile (find reservations by mobile)
-PUT /reservations/:reservation_id/edit (edit reservation)
+Endpoints /dashboard?date (shows reservations)<br>
+/reservations (redirected to dashboard)<br>
+GET /reservations?dates (redirected to dashboard)<br>
+POST /reservations/new (create new reservations)<br>
+POST /tables/new (assign table)<br>
+POST /reservations/:reservation_id/seat (check available tables)<br>
+PUT /tables/:table_id/seat (match reservation_id to table_id)<br>
+PUT /reservations/:reservation_id/status (set status of table)<br>
+/search GET /reservations?mobile (find reservations by mobile)<br>
+PUT /reservations/:reservation_id/edit (edit reservation)<br>
 
 
 Dashboard the home page
